@@ -9,4 +9,3 @@ const WinePage: NextPage = () => {
 };
 
 export default WinePage;
-//가장 기본적인 템플릿, typescript를 쓰는
