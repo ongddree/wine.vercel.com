@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import { BeerCardList } from "../../components/BeerCardList";
+import { BeerContainer } from "../../components/BeerContainer";
 
 const StoutsPage: NextPage = () => {
   const name = "stouts";
 
   return (
     <div>
-      <BeerCardList name={name} />
+      <BeerContainer name={name} />
     </div>
   );
 };
