@@ -20,7 +20,7 @@ export const WineCard = ({ wineData }: WineProps) => {
       </p>
       <p>
         별점:
-        {rating.reviews.replace(" ratings", "")}
+        {rating.average?.toFixed(2)}
       </p>
     </Container>
   );
