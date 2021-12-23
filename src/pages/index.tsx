@@ -13,7 +13,7 @@ const Wrap = styled.div`
   min-height: 100vh;
   background: #191919;
 
-  li a {
+  li {
     display: block;
     margin: 10px 20px;
     padding: 10px 20px;
@@ -24,7 +24,7 @@ const Wrap = styled.div`
     background: #c84b31;
   }
 
-  a:hover {
+  li:hover {
     transition: all 0.5s ease;
     background: #781d42;
   }
@@ -46,46 +46,30 @@ const Home: NextPage = () => {
     <Wrap>
       <Container>
         <li>
-          <Link href="/wines/dessert">
-            <a href="">🍷 dessert</a>
-          </Link>
+          <Link href="/wines/dessert">🍷 dessert</Link>
         </li>
         <li>
-          <Link href="/wines/port">
-            <a href="">🍷 port</a>
-          </Link>
+          <Link href="/wines/port">🍷 port</Link>
         </li>
         <li>
-          <Link href="/wines/reds">
-            <a href="">🍷 reds</a>
-          </Link>
+          <Link href="/wines/reds">🍷 reds</Link>
         </li>
         <li>
-          <Link href="/wines/rose">
-            <a href="">🍷 rose</a>
-          </Link>
+          <Link href="/wines/rose">🍷 rose</Link>
         </li>
         <li>
-          <Link href="/wines/sparkling">
-            <a href="">🍷 sparkling</a>
-          </Link>
+          <Link href="/wines/sparkling">🍷 sparkling</Link>
         </li>
         <li>
-          <Link href="/wines/whites">
-            <a href="">🍷 whites</a>
-          </Link>
+          <Link href="/wines/whites">🍷 whites</Link>
         </li>
       </Container>
       <Container>
         <li>
-          <Link href="/beers/ale">
-            <a href="">🍺 ale</a>
-          </Link>
+          <Link href="/beers/ale">🍺 ale</Link>
         </li>
         <li>
-          <Link href="/beers/stouts">
-            <a href="">🍺 stouts</a>
-          </Link>
+          <Link href="/beers/stouts">🍺 stouts</Link>
         </li>
       </Container>
     </Wrap>
